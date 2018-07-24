@@ -1,0 +1,7 @@
+// Placeholders for story text
+
+var beginning = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.";
+
+var middle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.";
+
+var end = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.";
