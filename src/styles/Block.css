@@ -1,0 +1,29 @@
+input {
+    display: block;
+    margin: 20px auto;
+    
+    font-size: 17px;
+    font-family: "Titillium Web", sans-serif;
+    
+    border: none;
+}
+
+button {
+    display: block;
+    margin: auto;
+    
+    background: transparent;
+    
+    color: white;
+    
+    font-size: 17px;
+}
+
+/* with thanks to https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2 */
+body:not(.user-is-tabbing) button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.15);
+}

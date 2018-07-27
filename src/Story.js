@@ -22,12 +22,15 @@ class Story extends Component {
     }
     
     handleSubmit(e) {
+        if (this.state.value == "") {
+            return;    
+        }
+        
         this.setState({
             value: "",
             name: this.state.value,
         });
         
-        e.preventDefault();
         this.handleChoice(e);
     }
     
@@ -70,9 +73,7 @@ class Story extends Component {
 
 	render() {
 		return (
-			<div>
                 <Block currentBlock={this.state.currentBlock.text} choices={this.state.choices} entryText={this.state.entryText} value={this.state.value} onClick={this.handleChoice} onChange={this.handleChange} onSubmit={this.handleSubmit} name={this.state.name}/>
-			</div>
 		);
 	}
 }

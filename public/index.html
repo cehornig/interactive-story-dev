@@ -6,7 +6,21 @@
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
     <script type="text/javascript" src="allText.js"></script>
+    <script>
+    //with thanks to https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2
+        
+    function handleFirstTab(e) {
+        if (e.keyCode === 9) {
+            document.body.classList.add('user-is-tabbing');
+            window.removeEventListener('keydown', handleFirstTab);
+        }
+    }
+
+    window.addEventListener('keydown', handleFirstTab);
+    </script>  
+      
     <title>My Interactive Story!</title>
   </head>
   <body>

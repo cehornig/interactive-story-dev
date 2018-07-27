@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles/Choices.css';
 import './index.css';
 
 const Choices = (props) => {
@@ -10,8 +11,8 @@ const Choices = (props) => {
     }
     
     return(
-	   <div>
-            {choiceArr}
+	   <div id="choice-div">
+                {choiceArr}
 	   </div>
     );
 }
