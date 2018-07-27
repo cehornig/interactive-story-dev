@@ -2,216 +2,362 @@
 
 var allText = {
     
-    beginning: {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
+    startText: {
+        
+        entryText: {
+            text: "This is the entry form."
+        },
+        
+        text: "This is the starter text.",
         
         choices: {
+            option1: "Pick option 1",
+            option2: "Pick option 2",
+            option3: "Pick option 3"
+        },
+        
+        option1: {
+            text: "This is startText.option1.text.",
+            
+            choices: {
+                option1: "Pick option 1",
+                option2: "Pick option 2",
+                option3: "Pick option 3"
+            },
+            
             option1: {
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                
+                text: "This is startText.option1.option1.text.",
+                        
                 choices: {
-                    option1: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    },
-                    
-                    option2: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    },
-                    
-                    option3: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    }
-                }
-            },
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
 
-            option2: {
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                
-                choices: {
-                    option1: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    },
+                option1: {
+                    text: "This is startText.option1.option1.option1.text.",
                     
-                    option2: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
             
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    },
+                option2: {
+                    text: "This is startText.option1.option1.option2.text.",
                     
-                    option3: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
             
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
+                option3: {
+                    text: "This is startText.option1.option1.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
                     }
                 }
+                        
+            },
+                    
+            option2: {
+                text: "This is startText.option1.option2.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option1.option2.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option2: {
+                    text: "This is startText.option1.option2.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option1.option2.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
+                        
+            },
+                    
+            option3: {
+                text: "This is startText.option1.option3.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option1.option3.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option2: {
+                    text: "This is startText.option1.option3.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option1.option3.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
+            }
+        },
+
+        option2: {
+            text: "This is startText.option2.text.",
+            
+            choices: {
+                option1: "Pick option 1",
+                option2: "Pick option 2",
+                option3: "Pick option 3"
             },
             
-            option3: {
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                
+            option1: {
+                text: "This is startText.option2.option1.text.",
+                        
                 choices: {
-                    option1: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    },
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option2.option1.option1.text.",
                     
-                    option2: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
-                        
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
             
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
-            
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
-                    },
+                option2: {
+                    text: "This is startText.option2.option1.option2.text.",
                     
-                    option3: {
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla.",
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option2.option1.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
                         
-                        choices: {
-                            option1: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
+            },
+                    
+            option2: {
+                text: "This is startText.option2.option2.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option2.option2.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
             
-                            option2: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            },
+                option2: {
+                    text: "This is startText.option2.option2.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
             
-                            option3: {
-                                text:
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed leo ex, varius id dolor id, gravida accumsan quam. Fusce convallis est in mi sodales, in pretium libero tincidunt. Phasellus vel vulputate nunc. Integer urna urna, auctor ut sem ut, tristique sagittis diam. Morbi quis feugiat orci. Nunc nec urna eu nulla ultrices aliquam. Sed ornare, metus eget egestas suscipit, magna sem pharetra eros, ac convallis odio nunc id nulla."
-                            }
-                        }
+                option3: {
+                    text: "This is startText.option2.option2.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
+                        
+            },
+                    
+            option3: {
+                text: "This is startText.option2.option3.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option2.option3.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option2: {
+                    text: "This is startText.option2.option3.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option2.option3.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
+            }
+        },
+        
+        option3: {
+            text: "This is startText.option3.text.",
+            
+            choices: {
+                option1: "Pick option 1",
+                option2: "Pick option 2",
+                option3: "Pick option 3"
+            },
+            
+            option1: {
+                text: "This is startText.option2.option1.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option3.option1.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option2: {
+                    text: "This is startText.option3.option1.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option3.option1.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
+                        
+            },
+                    
+            option2: {
+                text: "This is startText.option3.option2.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option3.option2.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option2: {
+                    text: "This is startText.option3.option2.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option3.option2.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                }
+                        
+            },
+                    
+            option3: {
+                text: "This is startText.option3.option3.text.",
+                        
+                choices: {
+                    option1: "Pick option 1",
+                    option2: "Pick option 2",
+                    option3: "Pick option 3"
+                },
+
+                option1: {
+                    text: "This is startText.option3.option3.option1.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option2: {
+                    text: "This is startText.option3.option3.option2.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
+                    }
+                },
+            
+                option3: {
+                    text: "This is startText.option3.option3.option3.text.",
+                    
+                    choices: {
+                        end: "You finished!  Go back to start."
                     }
                 }
             }
         }
     }
 };
+
+export default allText;
