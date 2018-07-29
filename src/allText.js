@@ -5,19 +5,23 @@ var allText = {
     startText: {
         
         entryText: {
-            text: "This is the entry form."
+            text: {
+                header: "Artifact",
+                byline: "An interactive story by Claire Hornig",
+                begin: "To begin, enter your name in the field below:"
+            }
         },
-        
-        text: "This is the starter text.",
+
+        text: "This is startText.text.",
         
         choices: {
-            option1: "Pick option 1",
-            option2: "Pick option 2",
-            option3: "Pick option 3"
+                option1: "Pick option 1",
+                option2: "Pick option 2",
+                option3: "Pick option 3"
         },
         
         option1: {
-            text: "This is startText.option1.text.",
+            text: "This is startText.option1.text",
             
             choices: {
                 option1: "Pick option 1",
@@ -254,7 +258,7 @@ var allText = {
             },
             
             option1: {
-                text: "This is startText.option2.option1.text.",
+                text: "This is startText.option3.option1.text.",
                         
                 choices: {
                     option1: "Pick option 1",

@@ -2,11 +2,21 @@
     display: flex;
     justify-content: center;
     
-    margin: 20px;
+    margin-top: 40px;
 }
 
-button {
-    margin: 0px 5px;
+.choice-btn {
+    display: block;
+    margin: auto 20px;
     
-    font-family: "Titillium Web", sans-serif;
+    height: 250px;
+    width: 250px;
+    
+    padding: 20px;
+    
+    background: transparent;
+    
+    color: white;
+    
+    font-size: 20px;
 }

@@ -7,14 +7,15 @@ const Choices = (props) => {
     let choiceArr = [];
     
     for (let option in props.choices) {
-        choiceArr.push(<button value={option} onClick={props.onClick} key={option}>{props.choices[option]}</button>);
+        choiceArr.push(<button className="choice-btn" value={option} onClick={props.onClick} key={option}>{props.choices[option]}</button>);
     }
     
     return(
 	   <div id="choice-div">
-                {choiceArr}
+            {choiceArr}
 	   </div>
     );
 }
+
 
 export default Choices;

@@ -40,14 +40,17 @@ class Story extends Component {
         });
     }
     
-    handleChoice(e) {
+    handleChoice(e) {  
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        
         let option = e.target.value;
         
         if (option == "end") {
            	this.setState({
                 currentBlock: allText.startText.entryText,
 			    choices: null,
-                entryText: true
+                entryText: true,
 		    });
             
             return;
@@ -57,7 +60,7 @@ class Story extends Component {
             this.setState({
                 currentBlock: allText.startText,
 			    choices: allText.startText.choices,
-                entryText: false
+                entryText: false,
 		    });
              
         } else {
@@ -66,14 +69,16 @@ class Story extends Component {
 		    this.setState({
 			     currentBlock: this.state.currentBlock[option],
 			     choices: newChoices,
-                 entryText: false
+                 entryText: false,
 		    });
-        }
+        } 
 	}
 
-	render() {
+	render() {  
+        const visible = this.state.visible;
+        
 		return (
-                <Block currentBlock={this.state.currentBlock.text} choices={this.state.choices} entryText={this.state.entryText} value={this.state.value} onClick={this.handleChoice} onChange={this.handleChange} onSubmit={this.handleSubmit} name={this.state.name}/>
+                <Block currentBlock={this.state.currentBlock} choices={this.state.choices} entryText={this.state.entryText} value={this.state.value} onClick={this.handleChoice} onChange={this.handleChange} onSubmit={this.handleSubmit} name={this.state.name}/>
 		);
 	}
 }

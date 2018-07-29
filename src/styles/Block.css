@@ -1,14 +1,35 @@
+#block-div {
+    margin: 80px 0px;
+    white-space: pre-wrap;
+}
+
+.centered {
+    text-align: center;
+}
+
+.welcome {
+    font-size: 60px;
+}
+
+.byline {
+    font-size: 35px;
+}
+
+.main-text {
+    font-size: 25px;
+}
+
 input {
     display: block;
     margin: 20px auto;
     
-    font-size: 17px;
+    font-size: 22px;
     font-family: "Titillium Web", sans-serif;
     
     border: none;
 }
 
-button {
+.submit {
     display: block;
     margin: auto;
     
@@ -16,7 +37,7 @@ button {
     
     color: white;
     
-    font-size: 17px;
+    font-size: 22px;
 }
 
 /* with thanks to https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2 */
@@ -25,5 +46,5 @@ body:not(.user-is-tabbing) button:focus {
 }
 
 button:hover {
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
