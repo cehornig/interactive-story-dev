@@ -16,7 +16,7 @@ const Block = (props) => {
                 </div>
                 {<br/>}
                 {<br/>}
-                <div className="centered main-text">
+                <div className="main-text">
                     {props.currentBlock.text.begin}
                 </div>
                 {<br/>}

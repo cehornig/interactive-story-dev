@@ -12,10 +12,18 @@
     display: block;
     margin: 20px auto;
     
-    height: 250px;
-    width: 250px;
+    height: 60px;
+    width: 120px;
     
-    padding: 20px;
+    padding: 0px;
+    
+    /*
+    * These larger values would be used with real story options.
+    * They should fit most text, but feel free to adjust them as needed.
+    * height: 250px;
+    * width: 250px;  
+    * padding: 20px;
+    */
     
     background: transparent;
     
