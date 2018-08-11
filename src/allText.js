@@ -39,7 +39,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 1, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 1, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -47,7 +47,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 1, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 1, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -55,7 +55,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 1, then Option 3.\n\nAnd that's the end of the \"story\"!    You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 1, then Option 3.\n\nAnd that's the end of the \"story\"!    You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -74,7 +74,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 2, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 2, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -82,7 +82,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 2, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 2, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -90,7 +90,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 2, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 2, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -109,7 +109,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 3, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 3, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -117,7 +117,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 3, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 3, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -125,7 +125,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 3, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 1, then Option 3, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -153,7 +153,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 1, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 1, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -161,7 +161,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 1, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 1, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -169,7 +169,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 1, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 1, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -188,7 +188,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 2, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 2, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -196,7 +196,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 2, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 2, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -204,7 +204,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 2, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 2, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -223,7 +223,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 3, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 3, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -231,7 +231,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 3, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 3, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -239,7 +239,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 3, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 2, then Option 3, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -267,7 +267,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 1, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 1, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -275,7 +275,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 1, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 1, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -283,7 +283,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 1, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 1, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -302,7 +302,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 2, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 2, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -310,7 +310,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 2, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 2, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -318,7 +318,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 2, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 2, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -337,7 +337,7 @@ var allText = {
                 },
 
                 option1: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 3, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 3, then Option 1.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -345,7 +345,7 @@ var allText = {
                 },
             
                 option2: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 3, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 3, then Option 2.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
@@ -353,7 +353,7 @@ var allText = {
                 },
             
                 option3: {
-                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 3, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nSince this is a production version of the app, you can't edit it.  However, you can access the development version by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
+                    text: "This is the third text block.  You arrived here by picking Option 3, then Option 3, then Option 3.\n\nAnd that's the end of the \"story\"!  You can make it longer, though.  The entire story text is stored in an object called \"allText.js\", so you can easily create more text by giving it new properties.\n\nYou can access the code for this template by cloning the repository at https://github.com/cehornig/interactive-story-dev.\n\nClick the button below to start over.",
                     
                     choices: {
                         end: "Restart"
